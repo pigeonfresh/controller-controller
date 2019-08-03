@@ -1,5 +1,5 @@
 import debounce from 'lodash/debounce';
-import { options, controllerOptions } from './IControllerManager';
+import { options, controllerOptions } from './IControllerController';
 
 export default class ControllerController {
   private readonly controllersCollection: Array<controllerOptions>;
