@@ -1,7 +1,7 @@
 export interface Class<T = any> extends Function { new (...args: any[]): T}
 
 export interface controllerOptions {
-  mediaQuery: number;
+  minWidth: number;
   controller: Class;
   props?: any;
 }

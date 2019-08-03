@@ -20,7 +20,7 @@ export default class ControllerController {
   private getActiveMediaQueryIndex = (): number => {
     let id = this.activeMediaQueryIndex;
     this.controllersCollection.forEach((controller, index) => {
-      if (controller.mediaQuery <= window.innerWidth) id = index;
+      if (controller.minWidth <= window.innerWidth) id = index;
     });
     return id;
   };
