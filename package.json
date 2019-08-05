@@ -12,7 +12,7 @@
   "author": "eelke <eelkevanderbij.prive+github@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/pigeonfresh/controller-controller.git"
   },
   "license": "MIT",
   "engines": {
